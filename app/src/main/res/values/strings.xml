@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">mimascota</string>
+    <string name="nomMascota">Perry</string>
+    <string name="numero">5</string>
+    <string name="mimascota">Mis mascotas</string>
+    <string name="submit">subir</string>
+</resources>

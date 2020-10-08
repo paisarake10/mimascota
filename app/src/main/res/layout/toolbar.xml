@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/miActionbar"
+    android:background="@color/colorPrimary"
+    android:elevation="@dimen/elevacion_appbar"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    <ImageView
+        android:id="@+id/imgFootprint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/footprint_icon"
+        android:scaleX="2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mimascota"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:paddingLeft="40dp"/>
+    <ImageView
+        android:id="@+id/ivStar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/star_icon"
+        android:layout_marginStart="50dp"
+        android:onClick="pasarActividad"
+        android:scaleY="2.8"
+        android:scaleX="2.8"/>
+
+</androidx.appcompat.widget.Toolbar>
